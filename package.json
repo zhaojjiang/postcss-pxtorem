@@ -1,7 +1,7 @@
 {
-  "name": "postcss-pxtorem",
+  "name": "@zhaojjiang/postcss-pxtorem",
   "description": "A CSS post-processor that converts px to rem.",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "author": "zhaojjiang",
   "license": "MIT",
   "repository": {
@@ -15,6 +15,9 @@
     "format": "prettier --write **/*.js",
     "test": "jasmine-node test"
   },
+  "files": [
+    "src/"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
