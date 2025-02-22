@@ -1,19 +1,19 @@
 {
   "name": "postcss-pxtorem",
   "description": "A CSS post-processor that converts px to rem.",
-  "version": "6.1.0",
-  "author": "cuth",
+  "version": "6.2.0",
+  "author": "zhaojjiang",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cuth/postcss-pxtorem.git"
+    "url": "git@github.com:zhaojjiang/postcss-pxtorem.git"
   },
-  "bugs": "https://github.com/cuth/postcss-pxtorem/issues",
-  "main": "index.js",
+  "bugs": "https://github.com/zhaojjiang/postcss-pxtorem/issues",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --write **/*.js",
-    "test": "jasmine-node spec"
+    "test": "jasmine-node test"
   },
   "husky": {
     "hooks": {
